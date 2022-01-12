@@ -1,0 +1,64 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>Feedback page</title>  
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+<body style="background-image: url(feedback.png);background-size:cover;">
+ <div class="container mt-4 shadow-lg">
+   <div class="row">
+    <div class="col-md-3"></div>
+      <div class="col-md-6"> 
+        <h2>Feedback Form</h2>
+        <p>We would love to hear your thoughts, concerns or problem with anything so we can improve!</p>
+        <hr>
+		<form>
+		    <h4 >Feedback type</h4>
+		    <div class="row ">
+		      <div class="col-md-4 ">
+		    	<input type= "radio" name="feed" class="pointer"  >&nbsp;&nbsp;<label>Comments</label>    
+		      </div>
+		      <div class="col-md-4">
+		    	<input type="radio" name="feed" >&nbsp;&nbsp;<label>Bug Reports</label>    
+		      </div>      
+		      <div class="col-md-4">
+		    	<input type="radio" name="feed" >&nbsp;&nbsp;<label>Questions</label>    
+		      </div>
+		    </div>
+
+		    <div class="form-group mt-3 mb-3" >
+		    	<label class="form-label">Full Name</label>
+		    	<input type="text" class="form-control " required="">
+		  	</div>
+		  	<div class="form-group mb-2">
+		    	<label  class="form-label">Email</label>
+		    	<input type="Email" class="form-control" required="">
+		  	</div>
+		    <div class="form-group mb-2">
+		    	<label  class="form-label">Describe Feedback:</label>
+		    	<textarea rows="4" class="form-control" required=""></textarea>
+		  	</div>
+		  	<button type="submit" class="btn btn-primary">Submit feedback</button>
+		</form>
+		<link rel="stylesheet" href="script.js">
+<input type="hidden" name="form-name" value="contact">
+<form name="contact" action="/pages/success" method="POST" data-netlify="true">
+
+      </div>
+    </div>
+  </div>
+ </body>  
+</html>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/61cb356fc82c976b71c3d649/1fo0shfuc';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
